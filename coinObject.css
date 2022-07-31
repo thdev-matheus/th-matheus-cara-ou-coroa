@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/nordic_wallpapper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxBotoes {
+    width: 30rem;
+    height: 7rem;
+    text-align: center;
+    display: flexbox;
+    margin: 1.2rem auto;
+}
+
+.boxBotoes__titulo {
+    text-transform: uppercase;
+    font-size: 20pt;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.botao {
+    width: 6rem;
+    height: 2rem;
+    background-color: #1A191F;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10pt;
+    font-weight: bold;
+    margin: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #fff;
+    transition: background-color 1s;
+}
+
+.botao:hover {
+    background-color: #3a3a3a;
+    transition: background-color 1s;
+}
+
+.botao:active {
+    width: 5.5rem;
+    height: 1.8rem;
+    font-size: 9pt;
+}
+
+.container {
+    width: 50vw;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #5c5c5ca1;
+    color: #fff;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.container__texto {
+    font-size: 18pt;
+    font-weight: bold;
+    margin: 1rem;
+    line-height: 18pt;
+}
+
+.container__caixaImagens {
+    margin-top: 1rem;
+}
+
+.container__img {
+    width: 6rem;
+    margin: 0.5rem;
+}
